@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contactme">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Anton Farmer</h1>
+            <h2>Python Developer</h2>
+            <a href="" download="Anton_F_Resume_2023" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        With over two year's commercial experience with Python and PyQt, I create portable desktop applications for the reporting, visualisation, statistical analysis and parameter derivation required for site investigations in offshore geotechnical engineering.
+                        <br><br>
+                        I am self-taught, which has been a common theme throughout my personal and professional life. Travelling through most of my 20's, my unconvential path has given me a unique perspective for problem solving and software development, pulling on my innate strive for perfection and the knowledge that there is always room to improve. Supported by my insatiability for learning and my determination, I enjoy the challenge, frustration and 'eureka' moments of software development and the reward that come with delivering a program that the user can really use.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="March 2021 – Current">
+                <h3>Geoquip Marine</h3>
+                <h4>Junior Data Engineer</h4>
+                <p>
+                    In my current role as Junior Data Engingeer in geotechnical engineering, I develop, maintain and test portable desktop applications built with Python, PyQt / Pyside and QtDesigner, as well as other in-house tools utilising VBA, SQL and Excel. I also provide data manipulation, statistical analysis and parameter derivation using pandas and numpy, with data visualisations and data deliverables for project reporting.
+                    <br><br>
+                    My job duties include:
+                    <br>
+                    <ul>
+                    <li style="font-size:12px">Develop, maintain and test portable desktop applications built with Python / PyQt / PySide / QtDesigner, compiled for portable use with PyInstaller </li>
+                    <li style="font-size:12px">Develop/maintain in-house tools utilising VBA, SQL and Excel</li>
+                    <li style="font-size:12px">Data set manipulation, statistical analysis and parameter derivation using Pandas and Numpy</li>
+                    <li style="font-size:12px">Data visualisation with pyqtgraph, matplotlib, QtCharts, PowerBI, Altair / Vega / JavaScript</li>
+                    <li style="font-size:12px">Version control using Git/GitHub desktop and documentation</li>
+                    <li style="font-size:12px">Data deliverables for project reporting in formats including GIS, .ags, borehole logs</li>
+                    <li style="font-size:12px">Data management and QA/QC of offshore/onshore laboratory testing and scheduling</li>
+                    <li style="font-size:12px">Database frameworks using Django, PostgreSQL / SQLite3</li>
+                    </ul>
+                </p>
+            </div>
+            <div data-date="2011 – 2020">
+                <h3>Travel</h3>
+                <h4>Chef</h4>
+                <p>
+                    For several years I travelled through New Zealand, Australia and Canada, working up to Sous Chef in hotels and fine dining restaurants. During lockdown in 2020, I realised it was time for a change and started self-learning programming. 
+                    <br><br>
+                    Hopsitality provided unexpected transferable skills to other industries:
+                    <br>
+                    <ul>
+                    <li style="font-size:12px">Teamwork and understanding the importance of collaboration</li>
+                    <li style="font-size:12px">Work ethic and the drive to push past personal boundaries for delayed gratification</li>
+                    <li style="font-size:12px">Communication and the significance of each team member having a voice to be heard</li>
+                    <li style="font-size:12px">Working under pressure and time restraints to meet deadlines, being goal-orientated</li>
+                    <li style="font-size:12px">Learning quickly, and learning often</li>
+                    <li style="font-size:12px">Organisation to prevent and prepare for the unexpected</li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/agsgif.gif" width="300" height="300"/>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>AGS GUI</h3>
+                        <p>
+                            A PyQt GUI made for the viewing, editing and processing of AGS4 data format
+                            <li style="font-size:12px">Uses subclassed QAbstractTableModel and QTableView, promoted in QtDesigner</li>
+                            <li style="font-size:12px">Parses AGS4 data into Pandas dataframes</li>
+                            <li style="font-size:12px">TableViews function like an excel spreadsheet, to view and edit dataframes</li>
+                            <li style="font-size:12px">Qt.CustomContextMenus to manipulate the data/structure, with edits applied to the original dataset</li>
+                            <li style="font-size:12px">Uses SQL queries with pyodbc and SQLAlchemy to "match" sample data to a geotechnical access database</li>
+                            <li style="font-size:12px">Counts results per test type, distinguishing between onshore and offshore results</li>
+                            <li style="font-size:12px"><a href="https://pypi.org/project/python-ags4/">Checks the file for errors using the AGS standard dictionaries with python-ags4</a></li>
+                        </p>
+                        <a href="https://github.com/lachesis17/AGS-GUI">View Project</a>
+                    </div>
+
+                </div>
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/cptgif.gif" width="300" height="300"/>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>AvgCPT</h3>
+                        <p>
+                            Another PyQt GUI that gives averages and statistical analysis on Cone Penetration Testing
+                            <li style="font-size:12px">Utilises object orientated programming to perform statistical analysis using linear regression with scipy and numpy, to remove outliers on both dependant and independant models</li>
+                            <li style="font-size:12px">Creates PDF reports with matplotlib, with profile lines for design from the statistical analysis class</li>
+                            <li style="font-size:12px">Gives average values for a selected depths and parameters within a 1 metre range, as long as the range is in the same geological layer</li>
+                            <li style="font-size:12px">Uses pyqtgraph to plot individual CPT parameters and edits them with a pg.InfiniteLine</li>
+                            <li style="font-size:12px">Has dark mode, because it's fancy</li>
+                        </p>
+                        <a href="https://github.com/lachesis17/AvgCPT">View Project</a>
+                    </div>
+
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/final.gif" width="300" height="300"/>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Collaborative and Personal Projects</h3>
+                        <p>
+                            I contribute to and maintain private repositories, and pursue personal goals using Python
+                            <li style="font-size:12px">Using PyMuPDF and PySide, derive parameters and sample quality of Oedometer test results</li>
+                            <li style="font-size:12px">Generate QR codes for samples using PyQt, Crypto, Pillow and JSON</li>
+                            <li style="font-size:12px">Export SQL databases to excel using queries with pyodbc, SQLAlchemy and Pandas, much faster than the native application exports</li>
+                            <li style="font-size:12px">My current passion project is learning to develop a game using PyGame, being an opportunity to improve my object orientated programming</li>
+                            <li style="font-size:12px">I'm currently learning C++ to use my skills and experience with PyQt to transfer to the Qt framework</li>
+                        </p>
+                    </div>
+
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>PyQt</li>
+            <li>PySide</li>
+            <li>QtDesigner</li>
+            <li>Qt</li>
+            <li>QtCharts</li>
+            <li>PyQtGraph</li>
+            <li>Pandas</li>
+            <li>Numpy</li>
+            <li>scipy</li>
+            <li>scikit-learn</li>
+            <li>maplotlib</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>Altair/Vega</li>
+            <li>SQL</li>
+            <li>SQLAlchemy</li>
+            <li>VBA</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Excel</li>
+            <li>GIS</li>
+            <li>AGS</li>
+            <li>Powershell</li>
+            <li>Windows</li>
+            <li>PyGame</li>
+            <li>Photoshop</li>
+            <li>Lightroom</li>
+            <li>Davinci Resolve</li>
+            <li>Reason</li>
+            <li>C++ (coming soon...)</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <footer>
+        <div class="container" id="contactme">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        &copy; <span id="current-year">2023</span> Anton LF
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <div id="contact-form">
+                                <form method="POST" action="mailto:antonleighf@gmail.com">
+                                    <button type="submit" style="font-size:12px;height:25px;">Send me a message</button>
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://github.com/lachesis17/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/antonlf/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
